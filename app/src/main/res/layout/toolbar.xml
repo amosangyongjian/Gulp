@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:background="#28dd8f">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/tb_favourites"
+        android:src="@drawable/ic_action_important"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+    <!--<ImageButton-->
+        <!--android:id="@+id/tb_profile"-->
+        <!--android:src="@drawable/profile"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_width="170dp"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+
+</LinearLayout>
+
+</android.support.v7.widget.Toolbar>

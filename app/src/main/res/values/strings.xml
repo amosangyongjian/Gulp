@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gulp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result_page">ResultPage</string>
+
+
+    <string name="title_activity_startup_page">StartupPage</string>
+    <string name="title_activity_saved_page">SavedPage</string>
+    <string name="title_activity_directions_page">DirectionsPage</string>
+    <string name="title_activity_splash_page">SplashPage</string>
+</resources>
